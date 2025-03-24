@@ -1,0 +1,28 @@
+.era__slider{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 10px;
+}
+.era__list {
+    width: 1350px;
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+    overflow: hidden;
+    align-items: end;
+}
+
+.era__img {
+    width: 400px;
+    height: 200px;
+
+}
+
+.era__item {
+    width: 360px;
+    transition: 0.3s ease; 
+   }
+.era__button{
+    padding:150px 20px;
+}

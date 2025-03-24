@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>сайт для изучению истории</title>
+</head>
+
+<body>
+    <header class="header container">
+        <img class="header__logo" src="image/logo.png" width="50" height="50" alt="логотип">
+        <nav class="header__menu">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__registration header__link" href="#"> Регистрация</a></li>
+                <li class="header__item"><a class="header__sinin header__link" href="#"> Вход</a></li>
+                <li class="header__item"><a class="header__link" href="yr.html" target="_blank"> Уроки</a></li>
+                <li class="header__item"><a class="header__link" href="tests.html" target="_blank"> Тесты</a></li>
+                <li class="header__item"><a class="header__link" href="konst.html" target="_blank"> Конструктор</a></li>
+                <li class="header__item"><a class="header__link" href="hw.html" target="_blank"> Домашнее задание</a></li>
+                <li class="header__item-lang-en"><button id="eng" class="translate"><img src="image/UK.png" alt="UK flag" width="40" height="30"></button></li>
+                <li class="header__item-lang-ru"><button id="rus" class="translate"><img src="image/RU.png" alt="RU flag" width="40" height="30"></button></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main container">
+        <section class="content">
+            <h1 class="content__title">ОНЛАЙН КУРСЫ ПО ИСТОРИИ</h1>
+            <p class="content__text">Данный сайт предназначен для изучения истории. На нем любой заинтересованый
+                преподователь может размещать свой учебный материал.</p>
+            <p class="content__text">Ученики посетившую данную платформу имеют доступ ко всей размещенной там
+                информации, а также доступ к тестам для проверки своих знаний что дает им возможность изучать историю.
+            </p>
+        </section>
+        <section class="desc">
+            <h2 class="desc__title title">Наши преимущества</h2>
+            <ul class="desc__list">
+                <li class="desc__item"> Первое и главное преимущество это полностью бесплатная платформа</li>
+                <li class="desc__item"> Второе преимущество это полный доступ ко всей размещенной информации</li>
+                <li class="desc__item"> Третье преимущество это возможность для преполователей просматривать результаты
+                    тестов</li>
+            </ul>
+        </section>
+        <section class="era">
+            <h2 class="title">Исторические эпохи</h2>
+
+            <div class="era__slider">
+                <button class="era__left era__button">
+                    <span>&#129044;</span>
+                </button>
+                <ul class="era__list">
+                    <li class="era__item"><a class="era__link" href="first.html" target="_blank">
+                            <img class="era__img first" src="./image/first.jpg" width="250" height="250"
+                                alt="первобытное общество">
+                            <p>первобытное общество</p>
+                        </a>
+                    </li>
+                    <li class="era__item"><a class="era__link" href="old.html" target="_blank">
+                            <img class="era__img old" src="./image/old.jpg" width="250" height="250" alt="Древнейшее время">
+                            <p>Древнейшее время</p>
+                        </a>
+                    </li>
+                    <li class="era__item"><a class="era__link" href="mid.html" target="_blank">
+                            <img class="era__img midle" src="./image/midle.jpg" width="250" height="250" alt="Средние века">
+                            <p>Средние века</p>
+                        </a>
+                    </li>
+                    <li class="era__item"><a class="era__link" href="renesans.html" target="_blank">
+                            <img class="era__img renesans" src="./image/renesans.jpg" width="250" height="250"
+                                alt="эпоха возрождения">
+                            <p>эпоха возрождения</p>
+                        </a>
+                    <li class="era__item"><a class="era__link" href="new.html" target="_blank">
+                            <img class="era__img new" src="./image/new.jpg" width="250" height="250" alt="Новое время">
+                            <p>Новое время</p>
+                        </a>
+                    </li>
+                    <li class="era__item"><a class="era__link" href="now.html" target="_blank">
+                            <img class="era__img verynew" src="./image/verynew.jpg" width="250" height="250" alt="Средние века">
+                            <p>Новейшее время</p>
+                        </a>
+                    </li>
+                </ul>
+                <button class="era__right era__button">
+                    <span>&#10132;</span>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer container">
+        <nav class="footer__menu">
+            <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="saport.html" target="_blank"> Поддержка</a></li>
+                <li class="footer__item"><a class="footer__link" href="kont.html" target="_blank"> Контакты</a></li>
+                <li class="footer__item"><a class="footer__link" href="socset.html" target="_blank"> Социальные сети</a>
+                </li>
+            </ul>
+        </nav>
+        <a class="text"> выполнил студент группы ОБ-32 Патуров Гордей</a>
+    </footer>
+ <div class="dialog" hidden>   
+    <section class="popup" hidden>
+        <img class="popup__close" src="./image/close.png" alt="popup__close">
+        <h2 class="popup__title">Регистрация</h2>
+        <form class="popup__form form" action="/" method="post">
+            <input class="form__field" type="text" name="name" placeholder="Имя" required>
+            <input class="form__field" type="email" name="email" placeholder="Логин" required>
+            <fieldset class="form__fieldset">
+                <div class="form__field-block">
+                    <input class="form__field" type="password" name="password" placeholder="Пароль" required>
+                    <span>Минимум 8 символов</span>
+                </div>
+                <input class="form__field" type="password" name="repeat-password" placeholder="Повторите пароль"
+                    required>
+            </fieldset>
+            <fieldset class="form__buttons">
+                <button class="button" type="submit">Зарегистрироваться</button>
+                <button class="cancellbutton" type="button">Отмена</button>
+            </fieldset>
+        </form>
+    </section>
+ </div>
+ <div class="sindialog" hidden>
+    <section class="sinpopup" hidden>
+        <img class="sinpopup__close" src="./image/close.png" alt="sinpopup__close">
+        <h2 class="sinpopup__title">Войти</h2>
+        <form class="sinpopup__form sinform" action="/" method="post">
+            <input class="sinform__field" type="email" name="email" placeholder="Логин" required>
+            <input class="sinform__field" type="password" name="password" placeholder="Пароль" required>
+        <fieldset class="sinform__buttons">
+            <button class="button" type="submit">Войти</button>
+            <button class="sincancellbutton" type="button">Отмена</button>
+        </fieldset>
+        </form>
+</section>
+ </div>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/popup.js"></script>
+    <script src="scripts/sinpopup.js"></script>
+    <script src="scripts/translate.js"></script>
+    <script src="scripts/hover.js"></script>
+</body>
+
+</html>

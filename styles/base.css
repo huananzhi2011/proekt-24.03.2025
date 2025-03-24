@@ -1,0 +1,35 @@
+/*контейнер-обертка*/
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/*кнопки*/
+.button{
+    font-size: 16px;
+    font-weight: 600;
+
+    background-color: green;
+    color: white;
+
+    border: 1px solid green;
+    border-radius: 8px;
+    padding: 20px 30px;
+
+    cursor: pointer;
+
+    transition: background-color 0.4s ease-out, color 0.4s ease-out;
+
+}
+
+.button:hover, .focus{
+    color: green;
+    background-color: white;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+}

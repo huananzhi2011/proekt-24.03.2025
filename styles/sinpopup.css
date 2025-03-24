@@ -1,0 +1,40 @@
+.sindialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(58, 60, 65, 0.25);
+}
+.sinpopup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(230, 199, 199);
+    padding-inline: 100px ;
+    padding-block: 50px;
+}
+.sincancellbutton{
+    font-size: 16px;
+    font-weight: 600;
+
+    background-color: green;
+    color: white;
+
+    border: 1px solid green;
+    border-radius: 8px;
+    padding: 20px 30px;
+
+    cursor: pointer;
+
+    transition: background-color 0.4s ease-out, color 0.4s ease-out;
+
+}
+.sincancellbutton:hover, .focus{
+    color: green;
+    background-color: white;
+}

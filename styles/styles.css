@@ -1,0 +1,32 @@
+@import "fonts.css";
+/*подключение шрифтоф*/
+
+@import "base.css";
+/* подключение основных стилей*/
+
+@import "footer.css";
+/*подключение стилей относящихся к footer*/
+
+@import "header.css";
+/*подключение стилей относящихся к header*/
+
+@import "main.css";
+/*подключение стилей относящихся к main*/
+
+@import "typography.css";
+/*подключение стилей шрифтоф*/
+
+@import "desc.css";
+/* подключение стилей для секции desc */
+
+@import "popup.css";
+/* подключение стилей для вкладок регистрации и входа*/
+
+@import "adaptability.css";
+/* адаптивную верстку*/
+
+@import "era.css";
+/* верстка для секции era*/
+
+@import "sinpopup.css"; 
+

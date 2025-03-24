@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    background-color: green;
+    color: white;
+    font-family: 'popins', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    font-style: italic;
+}
+.footer__list{
+    display: grid;
+    justify-content: left;
+    gap: 10px;
+    list-style: none;
+}
+.footer__link{
+    text-decoration: none;
+}
+.box {
+    position: static;
+    top: 50px;
+    left: 100px;
+}
+.footer__link:focus, .hover{
+    color: rgb( 85, 26, 139)
+}

@@ -1,0 +1,28 @@
+.main{
+    background-color: white;
+    color: black;
+    font-family: 'popins', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    font-style: normal;
+    font-size: 20px;
+}
+.content{
+    background-color: gainsboro;
+}
+.content__text{
+    width: 100%;
+    justify-content: left;
+}
+.desc{
+    width: 100%;
+}
+.desc__list{
+    display: grid;
+    justify-content: left;
+    gap: 15px;
+    list-style: none;
+    width: 1000px;
+    overflow: hidden;
+    text-align: left;
+}
